@@ -30,11 +30,14 @@ In this lab we are going to observe traffic flow through various protocols
 ![step6](https://github.com/user-attachments/assets/9f57e2e2-3393-4a1d-9a19-152feac0ee29)
 
 
-Observe DNS Traffic)
+(Observe DNS Traffic)
 1. Back in Wireshark, filter for DNS traffic only
 2. From your Windows 10 VM within a command line, use nslookup to see what google.com and disney.com’s IP addresses are
    - Observe the DNS traffic being show in WireShark
-  
+   
+**With the DNS, we'll use the command window and do a NSLOOKUP on disney.com**
+**Now look at Wireshark and you'll all the DNS traffic**
+
 ![step7](https://github.com/user-attachments/assets/c3aff392-aa06-4522-baa4-7fc1e1866623)
 
 
@@ -42,3 +45,5 @@ Observe DNS Traffic)
 1. Back in Wireshark, filter for RDP traffic only (tcp.port == 3389)
 2. Observe the immediate non-stop spam of traffic? Why do you think it’s non-stop spamming vs only showing traffic when you do an activity?
    - Answer: because the RDP (protocol) is constantly showing you a live stream from one computer to another, therefor traffic is always being transmitted
+  
+![step8](https://github.com/user-attachments/assets/e3bbffa1-20f7-408f-adf5-ef70dc64bbb4)
